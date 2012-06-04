@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pocket Abbreviations</string>
+    <color name="topTextColor">#000000</color>
+    <color name="bottomTextColor">#003366</color>
+    <color name="resultRowBGColor">#CCCCCC</color>
+    <color name="mainBG">#F0F0F0</color>
+    <color name="resultsFoundColor">#FFFFFF</color>
+    <string name="labelAbbr">Enter Abbreviation</string>
+    <color name="labelColor">#000000</color>
+    <string name="labelSort">Sort Results</string>
+    <string-array name="sortBy">
+        <item >By Popularity</item>
+        <item >By Category</item>
+        <item >Alphabetically</item>
+    </string-array>
+    <string name="labelCategoryID">Select Cateogory</string>
+    <string-array name="CategoryID"><item>All</item>
+        <item >Chat</item>
+        <item >Media</item>
+        <item >Religion</item>
+        <item >International Business</item>
+        <item >Music</item>
+        <item >Law</item>
+        <item >Food</item>
+        <item >Amateur Radio</item>
+        <item >Sports</item>
+        <item >Universities</item>
+        <item >Software</item>
+        <item >Community</item>
+        <item >Military</item>
+        <item >Transportation</item>
+        <item >International</item>
+        <item >Internet</item>
+        <item >Educational</item>
+        <item >Products</item>
+        <item >Physiology</item>
+        <item >Stock Exchange</item>
+        
+        <item >Security</item>
+        <item >Electronics</item>
+        <item >Hospitals</item>
+        <item >Laboratory</item>
+        <item >Medical</item>
+        <item >Networking</item>
+        <item >Hardware</item>
+        <item >Colors</item>
+        <item >Currencies</item>
+        <item >Coins</item>
+        <item >Police</item>
+        <item >Physics</item>
+        <item >Chemistry</item>
+        <item >Human Genome</item>
+        <item >Databases</item>
+        <item >Performing Arts</item>
+        <item >Mathematics</item>
+        <item >Ocean Science</item>
+        <item >Positions</item>
+        <item >Accounting</item>
+        <item >Architecture</item>
+        <item >Botany</item>
+        <item >Countries</item>
+        <item >Funnies</item>
+        <item >Governmental</item>
+        <item >US Govenrment</item>
+        <item >Housing</item>
+        <item >Latin</item>
+        <item >State &amp; Local</item>
+        <item >Metoerlogy</item>
+        <item >Miscellaneous</item>
+        <item >Unfiled</item>
+    </string-array>
+
+</resources>

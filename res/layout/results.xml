@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_layout"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/searchText"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:background="@drawable/label_btn_3"
+        android:textColor="@color/resultsFoundColor"
+        android:textSize="10dip" android:gravity="center" android:text="Results Found" android:layout_marginBottom="10dp" android:layout_marginTop="10dp"/>
+
+<ListView
+        android:id="@+id/resultsList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:smoothScrollbar="true" android:clickable="true" android:focusable="true" android:focusableInTouchMode="true" android:dividerHeight="2dp" android:fastScrollEnabled="true" android:listSelector="@drawable/label_btn_3" android:layout_marginBottom="8dp" android:layout_marginTop="8dp"/>
+
+</LinearLayout>

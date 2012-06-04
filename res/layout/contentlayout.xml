@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_layout"
+        android:orientation="vertical" 
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/AbbrCaption"
+            android:layout_width="190dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/label_btn"
+            android:gravity="center"
+            android:text="@string/labelAbbr"
+            android:textColor="@color/labelColor"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:id="@+id/insideLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal" android:background="@drawable/label_bg">
+
+            <EditText
+                android:id="@+id/searchTerm"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:inputType="text" >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/showResult"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/search_aabr" android:padding="10dp" android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/SortByCaption"
+            android:layout_width="136dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/label_btn_2"
+            android:gravity="center"
+            android:text="@string/labelSort"
+            android:textColor="@color/labelColor"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/sortByChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:entries="@array/sortBy" />
+
+        <TextView
+            android:id="@+id/CateogyIDCaption"
+            android:layout_width="136dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/label_btn_2"
+            android:gravity="center"
+            android:text="@string/labelCategoryID"
+            android:textColor="@color/labelColor"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/CategoryIDChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:entries="@array/CategoryID" />
+
+    </LinearLayout>
